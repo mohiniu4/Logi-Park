@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server_Test_Suite\\Server_Test_Suite.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Logi-Park-Login\\Client.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Logi-Park-Login\\Client.csproj",
+        "projectName": "Client",
+        "projectPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Logi-Park-Login\\Client.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\Umang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentFTP": {
+              "target": "Package",
+              "version": "[49.0.2, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.2.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server_Test_Suite\\Server_Test_Suite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server_Test_Suite\\Server_Test_Suite.csproj",
+        "projectName": "Server_Test_Suite",
+        "projectPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server_Test_Suite\\Server_Test_Suite.csproj",
+        "packagesPath": "C:\\Users\\Umang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server_Test_Suite\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Logi-Park-Login\\Client.csproj": {
+                "projectPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Logi-Park-Login\\Client.csproj"
+              },
+              "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\Server.csproj": {
+                "projectPath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.5, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

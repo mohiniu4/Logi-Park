@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BXOqsbqTBMQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Umang\\Downloads\\Logi Park\\Logi Park\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Umang\\.nuget\\packages\\fluentftp\\49.0.2\\fluentftp.49.0.2.nupkg.sha512",
+    "C:\\Users\\Umang\\.nuget\\packages\\protobuf-net\\3.2.30\\protobuf-net.3.2.30.nupkg.sha512",
+    "C:\\Users\\Umang\\.nuget\\packages\\protobuf-net.core\\3.2.30\\protobuf-net.core.3.2.30.nupkg.sha512",
+    "C:\\Users\\Umang\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
